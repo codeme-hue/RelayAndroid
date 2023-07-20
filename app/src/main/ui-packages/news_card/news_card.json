@@ -1,0 +1,115 @@
+{
+  "name": "news_card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "S27CagrCv9FoK82icEB6NV",
+    "node": "1:6",
+    "version": "3849738969",
+    "component-id": "55a4a99eb61e9bfb393c70a8ed62f90b9f4a3b4d"
+  },
+  "default": "News Card",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "New design to code tool for compose"
+      }
+    ],
+    "modes": {
+      "News Card": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": "12.0",
+            "border-radius": "16.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Rectangle 1",
+              "New design to code tool for compose"
+            ],
+            "item-spacing": "10.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "16.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "218.0"
+              }
+            },
+            "image-content": "rectangle_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "New design to code tool for compose",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "New design to code tool for compose ",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.4479999542236328",
+            "typeface": "Potta One"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "News Card",
+      "size": {
+        "width": 518.0,
+        "height": 281.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
